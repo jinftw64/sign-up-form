@@ -27,7 +27,9 @@ time, mark, audio, video {
 /* my code begins here */
 
 body {
+  margin: 0 auto;
   min-height: 100vh;
+  max-width: 80vw;
 }
 
 .main {
@@ -35,12 +37,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .left {
   background-color: lightblue;
-  flex: 0 1 600px;
+  flex: 1 1;
+}
+
+.left img {
+  object-fit: contain;
+  max-height: 100vh;
 }
 
 .signup {
