@@ -26,6 +26,11 @@ time, mark, audio, video {
 
 /* my code begins here */
 
+@font-face {
+  font-family: Norse Bold;
+  src: url(../fonts/Norse-Bold.otf);
+}
+
 body {
   margin: 0 auto;
   min-height: 100vh;
@@ -47,6 +52,20 @@ body {
 .left img {
   object-fit: contain;
   max-height: 100vh;
+}
+
+.logo-body {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  background: black;
+  opacity: 0.6;
+  color: white;
+  top: 8rem;
+}
+
+.logo-heading {
+  font-family: Norse Bold;
 }
 
 .signup {
