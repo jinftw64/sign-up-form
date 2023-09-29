@@ -33,7 +33,6 @@ time, mark, audio, video {
 
 body {
   margin: 0 auto;
-  min-height: 100vh;
   max-width: 80vw;
 }
 
@@ -46,22 +45,24 @@ body {
 
 .left {
   background-color: lightblue;
-  flex: 0;
-}
-
-.left img {
-  object-fit: contain;
-  max-height: 100vh;
+  flex: none;
+  width: 60rem;
 }
 
 .logo-body {
   display: flex;
+  width: 60rem;
   position: absolute;
-  width: 100%;
   background: black;
   opacity: 0.6;
   color: white;
   top: 8rem;
+  font-size: 10em;
+  height: 200px;
+}
+
+.logo img {
+  object-fit: contain;
 }
 
 .logo-heading {
