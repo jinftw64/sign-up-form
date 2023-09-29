@@ -80,6 +80,15 @@ body {
 }
 
 .signup {
+  display: flex;
   flex: 1 0 auto;
   min-width: 800px;
+}
+
+.signup>.top {
+  flex: 1 1 auto;
+  background-color: pink;
+  padding: 5rem 2rem 1rem;
+  width: 800px;
+  font-size: 2rem;
 }
