@@ -47,18 +47,26 @@ body {
   background-color: lightblue;
   flex: none;
   width: 60rem;
+  height: 100rem;
+}
+
+.left img {
+  height: 100%;
+  object-fit: contain;
 }
 
 .logo-body {
   display: flex;
   width: 60rem;
+  height: 200px;
   position: absolute;
   background: black;
   opacity: 0.6;
   color: white;
   top: 8rem;
   font-size: 10em;
-  height: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo img {
