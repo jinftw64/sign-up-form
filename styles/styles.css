@@ -50,8 +50,9 @@ body {
   height: 100rem;
 }
 
-.left img {
+.left>img {
   height: 100%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -69,7 +70,8 @@ body {
   align-items: center;
 }
 
-.logo img {
+.logo-body>img {
+  height: 100%;
   object-fit: contain;
 }
 
@@ -78,7 +80,6 @@ body {
 }
 
 .signup {
-  background-color: lightgreen;
   flex: 1 0 auto;
   min-width: 800px;
 }
