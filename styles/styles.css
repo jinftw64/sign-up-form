@@ -99,3 +99,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.form-container {
+  display: flex;
+}
