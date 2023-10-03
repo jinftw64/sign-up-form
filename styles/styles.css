@@ -41,7 +41,6 @@ body {
 }
 
 .main {
-  max-width: 100rem;
   background-color: lightgray;
   display: flex;
   flex-direction: row;
@@ -51,19 +50,19 @@ body {
 .left {
   background-color: lightblue;
   flex: none;
-  width: 60rem;
-  height: 100rem;
+  width: 50rem;
+  height: 80rem;
 }
 
 .left>img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .logo-body {
   display: flex;
-  width: 60rem;
+  width: 50rem;
   height: 200px;
   position: absolute;
   background: black;
@@ -97,7 +96,11 @@ body {
   background-color: pink;
   padding: 5rem 2rem 1rem;
   max-height: 20rem;
-  font-size: 2rem;
+  font-size: 1.6em;
+}
+
+.signup>.top>p:last-child {
+  margin-top: 1rem;
 }
 
 .middle {
@@ -105,6 +108,12 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem 2rem;
+}
+
+.middle>p {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 0 1rem;
 }
 
 .form-container {
