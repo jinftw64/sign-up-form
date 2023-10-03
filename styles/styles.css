@@ -26,6 +26,10 @@ time, mark, audio, video {
 
 /* my code begins here */
 
+html {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: Norse Bold;
   src: url(../fonts/Norse-Bold.otf);
@@ -82,24 +86,33 @@ body {
 .signup {
   display: flex;
   flex-direction: column;
-  flex: 1 0 auto;
-  min-width: 800px;
+  width: 800px;
+  min-width: 500px;
 }
 
 .signup>.top {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   background-color: pink;
   padding: 5rem 2rem 1rem;
-  width: 800px;
   max-height: 20rem;
   font-size: 2rem;
 }
 
 .middle {
+  flex: 0 1 auto;
   display: flex;
   flex-direction: column;
+  padding: 1rem 2rem;
 }
 
 .form-container {
   display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 40%;
 }
