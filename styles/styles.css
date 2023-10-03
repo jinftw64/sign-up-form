@@ -36,11 +36,12 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 80vw;
+  display: flex;
+  justify-content: center;
 }
 
 .main {
+  max-width: 100rem;
   background-color: lightgray;
   display: flex;
   flex-direction: row;
@@ -86,12 +87,13 @@ body {
 .signup {
   display: flex;
   flex-direction: column;
+  align-content: stretch;
   width: 800px;
   min-width: 500px;
 }
 
 .signup>.top {
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   background-color: pink;
   padding: 5rem 2rem 1rem;
   max-height: 20rem;
@@ -108,7 +110,7 @@ body {
 .form-container {
   display: flex;
   flex-wrap: wrap;
-  box-sizing: border-box;
+  gap: 20px;
 }
 
 .form-field {
