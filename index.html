@@ -50,12 +50,12 @@
 
           <div class="form-field">
             <label for="password">PASSWORD</label>
-            <input id="pass" name="password" type="password">
+            <input id="pass" name="password" type="password" class="error" onkeyup="checkEquality()">
           </div>
 
           <div class="form-field">
             <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input id="confirm-password" name="confirm-password" type="password">
+            <input id="confirm-password" name="confirm-password" type="password" class="error" onkeyup="checkEquality()">
           </div>
 
         </div>
@@ -71,6 +71,9 @@
       </div>
     </div>
   </div>
+
+  <script src="./scripts/script.js"></script>
+
 </body>
 
 </html>

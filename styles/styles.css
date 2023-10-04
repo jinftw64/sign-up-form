@@ -52,7 +52,7 @@ body {
   height: 80rem;
 }
 
-.left>img {
+.left > img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -103,7 +103,7 @@ body {
   box-sizing: border-box;
 }
 
-.signup>.top>p:last-child {
+.signup > .top > p:last-child {
   margin-top: 1rem;
 }
 
@@ -118,7 +118,7 @@ body {
   z-index: 1;
 }
 
-.middle>p {
+.middle > p {
   font-size: 2em;
   font-weight: bold;
   margin: 0 0 1rem;
@@ -161,7 +161,7 @@ input:focus {
   padding: 2rem 2rem;
 }
 
-.bottom>.create-account {
+.bottom > .create-account {
   font-size: 1.2em;
   color: white;
   background-color: #596D48;
